@@ -17,15 +17,15 @@ PCB is: <br>
 
 ### PWM Mode
 PWM mode has three sub modes: manual mode, middle mode, and automatic mode.
-*manual mode
+*manual mode*
 The default mode for powering on, in which the "MODE/MAN" light remains on and the other two lights turn off.
 At this point, the output of the signal follows the resistance value of the resistor(50Hz,duty 1ms-2ms).
 
-*middle mode
+*middle mode*
 Short press the button, it will switch to the middle mode, and at this time, the PWM waveform with a fixed output duty cycle of 1.5ms will be output.
 In this mode, the "MID" LED remains on and the other two LEDs turn off
 
-*automatic mode
+*automatic mode*
 Short press the button again, it will switch to the automatic mode, and the duty cycle of the output signal will continuously scan from 1ms to 2ms.
 In this mode, the "AUTO" LED remains on and the other two LEDs turn off
 
